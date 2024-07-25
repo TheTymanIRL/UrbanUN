@@ -6,7 +6,7 @@ i = 0
 while i != 5:
     j = str(students[i])                            #Имя ученика
     AG = sum(grades[i][0:]) / len(grades[i])        #Средняя оценка ученика
-    list: list[list[str | float]] = [[j, AG]]
+    list = [[j, AG]]
     jornal.extend(list)
     i += 1
 jornal = dict(jornal)
