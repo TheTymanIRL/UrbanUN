@@ -9,3 +9,10 @@ print((1234 % 1000) // 10 + (5678 % 1000) // 10)
 
 # 4th program
 print((13.42 // 1) == (42.13 * 100 % 100) or (42.13 // 1) == (13.42 * 100 % 100))
+
+## длина слова
+num = int(input())
+str_num = str(num)
+lenght = len(str_num)
+print(lenght)
+
