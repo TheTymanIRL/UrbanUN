@@ -8,6 +8,7 @@ def bubble_sort(ls):
             if ls[i] > ls[i+1]:
                 ls[i], ls[i+1] = ls[i+1], ls[i]
                 swapped = True
+    return ls
 
 
 def selection_sort(ls):
@@ -17,4 +18,5 @@ def selection_sort(ls):
             if ls[j] < ls[lowest]:
                 lowest = j
         ls[i], ls[lowest] = ls[lowest], ls[i]
+    return ls
 
