@@ -1,4 +1,3 @@
-nums = [5, 4, 1, 6, 9, 0, 6, 2]
 
 
 def bubble_sort(ls):
@@ -11,9 +10,6 @@ def bubble_sort(ls):
                 swapped = True
 
 
-bubble_sort(nums)
-print(nums)
-
 def selection_sort(ls):
     for i in range(len(ls)):
         lowest = i
@@ -22,5 +18,3 @@ def selection_sort(ls):
                 lowest = j
         ls[i], ls[lowest] = ls[lowest], ls[i]
 
-selection_sort(nums)
-print(nums)
