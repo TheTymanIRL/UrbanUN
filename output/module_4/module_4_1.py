@@ -1,6 +1,6 @@
-from fake_math import divide as fake_div
+from output.Module_3.fake_math import divide as fake_div
 
-from true_math import divide as true_div
+from output.Module_3.true_math import divide as true_div
 
 
 result1 = fake_div(69, 3)
