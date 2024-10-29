@@ -1,6 +1,7 @@
 import os
 import time
 
+directory = os.path.dirname(__file__)
 
 for root, dirs, files in os.walk(directory):
   for file in files:
